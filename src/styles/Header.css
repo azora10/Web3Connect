@@ -1,0 +1,70 @@
+.navbar {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-left: 10px;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+}
+
+.nav-item {
+    padding: 0 5px;
+}
+
+.nav-item a {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+
+.connectBtn {
+    cursor: pointer;
+    /* float: right; */
+    height: 30px;
+    margin: 5px 15px 0;
+    font-family: Inter;
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 15.2222px;
+    padding: 0px 15px;
+    /* padding-right: 15px;
+    padding-left: 15px;
+    line-height: 15px;
+    width: auto;
+    height: auto; */
+    border: .763889px solid #943cca;
+    border-radius: 3.05556px;
+    background: linear-gradient(93.62deg, #3c0b63 1.06%, #c11bb9 147.09%);
+    color: #fff;
+    /* position: relative;
+    top: 10px; */
+}
+
+
+/* mobile-responsive */
+
+.sideNavMain {
+    position: absolute;
+    background-color: #000000;
+    right: 10px;
+    top: 80px;
+    z-index: 1;
+}
+
+.sideNavMain .nav-link {
+    padding: 3px 0 !important;
+}
